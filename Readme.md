@@ -28,4 +28,4 @@ void loop() {
 ```
 
 ## License:
-Copyright 2016 - Under creative commons license 3.0: Attribution-ShareAlike CC BY-SA
+Released Under creative commons license 3.0: Attribution-ShareAlike CC BY-SA
