@@ -13,6 +13,9 @@ uin32_t        KEYWORD1
 ###########################################
 
 ESP8266info          KEYWORD2
+ESP8266info_MACids          KEYWORD2
+ESP8266info_Flash          KEYWORD2
+ESP8266info_Wifi          KEYWORD2
 
 ###########################################
 # Constants (LITERAL1)

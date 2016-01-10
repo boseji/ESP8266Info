@@ -36,6 +36,9 @@
 //------------------------------<<<<
 
 #define ESP8266info()
+#define ESP8266info_MACids()
+#define ESP8266info_Flash()
+#define ESP8266info_Wifi()
 
 //------------------------------>>>>
 #else /* Happy to Complied in ESP8266 ! */
@@ -47,6 +50,25 @@
  * @return False - In case the Serial port has not been Initialized
  */
 bool ESP8266info();
+/**
+ * Prints the MAC ID Info about the ESP8266 Module - both Station and SoftAP are printed
+ *
+ * @return False - In case the Serial port has not been Initialized
+ */
+bool ESP8266info_MACids();
+/**
+ * Prints the SPI Flash chip Info about the ESP8266 Module
+ *
+ * @return False - In case the Serial port has not been Initialized
+ */
+bool ESP8266info_Flash();
+/**
+ * Prints the WiFi Station Mode Info about the ESP8266 Module
+ * @par Only works if the Module is configured in Client Mode
+ *
+ * @return False - In case the Serial port has not been Initialized
+ */
+bool ESP8266info_Wifi();
 
 //------------------------------>>>>
 #endif /* End of ESP8266 System Level Selection */
