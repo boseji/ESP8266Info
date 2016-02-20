@@ -8,7 +8,11 @@ Helps to read out essential info from ESP8266.
 There are 3 main functions that help to display info about the module on which the program is running.
 It might be helpful to know what is the internal configuration of the Module like - *Flash Size*,
 *Type of Flash Interface*, *MAC ID* etc.
-This library is designed to work with the *Serial* library. Hence needs initialization of the *Serial* Library before with `Serial.begin(115200);`. (Note: In general for ESP8266 115200 BAUD a preferred BAUD rate.)
+This library is designed to work with the *Serial* library. 
+
+Hence needs initialization of the *Serial* Library before with `Serial.begin(115200);`. 
+
+(Note: In general for ESP8266 115200 BAUD a preferred BAUD rate.)
 
 == Example ==
 
@@ -27,17 +31,15 @@ void loop() {
 }
 ```
 
+=== Dependencies ===
+ *Serial* Library
+ Thread Safe: No
+ Extendable: Yes
+
 For more information about this library please visit us at
 http://github.com/boseji/ESP8266Info
 
 == License ==
 
-Created by Abhijit Bose (boseji) on 20/01/16.
-Copyright 2016 - Under creative commons license 3.0:
-        Attribution-ShareAlike CC BY-SA
+Released Under creative commons license 3.0: Attribution-ShareAlike CC BY-SA
 
- This software is furnished "as is", without technical support, and with no 
- warranty, express or implied, as to its usefulness for any purpose.
-
- Thread Safe: No
- Extendable: Yes
