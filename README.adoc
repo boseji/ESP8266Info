@@ -1,0 +1,18 @@
+= ESP8266Info library for ESP8266 Arduino =
+
+Helps to read out essential info from ESP8266.
+
+For more information about this library please visit us at
+http://github.com/boseji/ESP8266Info
+
+== License ==
+
+Created by Abhijit Bose (boseji) on 20/01/16.
+Copyright 2016 - Under creative commons license 3.0:
+        Attribution-ShareAlike CC BY-SA
+
+ This software is furnished "as is", without technical support, and with no 
+ warranty, express or implied, as to its usefulness for any purpose.
+
+ Thread Safe: No
+ Extendable: Yes
