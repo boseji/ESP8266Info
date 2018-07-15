@@ -6,7 +6,7 @@
 # Datatypes (KEYWORD1)
 ###########################################
 
-ESP8266Info	KEYWORD1	ESP8266Info
+ESP8266Info	KEYWORD1
 
 ###########################################
 # Methods and Functions (KEYWORD2)
